@@ -1,24 +1,21 @@
-# README
+# File Cabinet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+File Cabinet é um projeto de sistema administrativo de uma empresa que guarda documentos. O foco do sistema é gerenciar os documentos inseridos.
 
-Things you may want to cover:
 
-* Ruby version
+## Como iniciar o projeto
 
-* System dependencies
+Para executar esse projeto você deve ter um computador, preferencialmente com
+Linux, com a linguagem de programação Ruby na versão 2.6.3
 
-* Configuration
+Dentro do diretório do projeto, você deve instalar as dependências definidas no
+arquivo `Gemfile` com o comando `bundle install`.
 
-* Database creation
+Com todas dependências instaladas, execute `rails server` e acesse
+`localhost:3000` em seu navegador.
 
-* Database initialization
 
-* How to run the test suite
+## Executando os testes
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Com todas dependências instaladas, como descrito na seção anterior, em seu
+terminal execute `rspec`.
