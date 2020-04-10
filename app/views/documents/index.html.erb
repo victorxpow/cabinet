@@ -1,6 +1,6 @@
 <% @documents.each do |document| %>
   <tr>
       <td><%= document.id %></td>
-      <td><%= document.title %></td>
+      <td><%= link_to document.title, document_path(document) %></td>
   </tr>
 <% end %>
