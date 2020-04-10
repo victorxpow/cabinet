@@ -8,8 +8,7 @@ feature 'User view all documents' do
     click_on 'Documentos'
 
     expect(page).to have_content(document.title)
-    expect(page).to have_content(document.body)
-    expect(page).to have_content(document.document_id)
+    expect(page).to have_content(document.id)
   end
 
   xscenario 'User view document' do

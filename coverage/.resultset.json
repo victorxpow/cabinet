@@ -16,13 +16,27 @@
       },
       "/home/victorpow/workspace/cabinet/app/controllers/application_controller.rb": {
         "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          null
+        ]
+      },
+      "/home/victorpow/workspace/cabinet/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/victorpow/workspace/cabinet/app/controllers/documents_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1586485930
+    "timestamp": 1586488631
   }
 }
